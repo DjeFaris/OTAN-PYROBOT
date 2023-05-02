@@ -16,7 +16,7 @@ load_dotenv("config.env")
 
 
 API_HASH = getenv("API_HASH")
-API_ID = getenv("API_ID", "")
+API_ID = getenv("API_ID")
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283, -1001810928340, -1001821201567,
